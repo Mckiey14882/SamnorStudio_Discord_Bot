@@ -19,10 +19,10 @@ async def on_ready():
 
 @bot.event
 async def on_member_join(member):
-    channel = bot.get_channel(1140633489520205934) # IDห้อง
-    text = f"Welcome to the server, {member.mention}!"
+    channel = bot.get_channel(567371573649211423) # IDห้อง
+    text = f"Welcome to the SamnorStudio, {member.mention}!"
 
-    emmbed = discord.Embed(title = 'Welcome to the server!',
+    emmbed = discord.Embed(title = ยินดีต้อนรับเข้าสู่ครอบครัวสามหน่อ!',
                            description = text,
                            color = 0x66FFFF)
 
@@ -33,8 +33,8 @@ async def on_member_join(member):
 
 @bot.event
 async def on_member_remove(member):
-    channel = bot.get_channel(1140633489520205934)  # IDห้อง
-    text = f"{member.name} has left the server!"
+    channel = bot.get_channel(713339852791480381)  # IDห้อง
+    text = f"{member.name} ได้จากเราไปแล้ว!"
     await channel.send(text)  # ส่งข้อความไปที่ห้องนี้
 
 
