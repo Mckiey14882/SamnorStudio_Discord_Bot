@@ -22,7 +22,7 @@ async def on_member_join(member):
     channel = bot.get_channel(567371573649211423) # IDห้อง
     text = f"Welcome to the SamnorStudio, {member.mention}!"
 
-    emmbed = discord.Embed(title = ยินดีต้อนรับเข้าสู่ครอบครัวสามหน่อ!',
+    emmbed = discord.Embed(title = 'ยินดีต้อนรับเข้าสู่ครอบครัวสามหน่อ!',
                            description = text,
                            color = 0x66FFFF)
 
